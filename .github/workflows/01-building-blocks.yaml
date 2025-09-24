@@ -1,10 +1,5 @@
 name: 01-building-blocks
-on: 
-  push:
-  pull_request:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+on: push
 
 jobs:
     echo-hello:
